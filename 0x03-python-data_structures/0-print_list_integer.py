@@ -1,23 +1,21 @@
 #!/usr/bin/python3.8
 
 def print_list_integer(my_list=[]):
-        """
-        Print integers from a list,one per line.
-        
-        Args:
+    """
+    Print integers from a list,one per line.
 
-            my_list(list): The list of input containing integers.
+    Args:
 
-            
-        Returns:
+        my_list(list): The list of input containing integers.
 
-           None
+    Returns:
 
-        """
-        # Iterate through each elememnt in the list
+        None
 
-        for num in my_list:
+    """
+    # Iterate through each elememnt in the list
+    for num in my_list:
 
-            # Print the integer using the specified format
+        # Print the integer using the specified format
 
-            print("{:d}".format(num))
+        print("{:d}".format(num))
