@@ -3,6 +3,5 @@
 # ASCII value for 'a'
 ascii_a = ord('a')
 
-# Loop to print the lowercase alphabet
-for i in range(26):
-    print(chr(ascii_a + i), end='')
+# Print the lowercase alphabet using the .format() method
+print("{}".format("".join(chr(ascii_a + i) for i in range(26))), end='')
