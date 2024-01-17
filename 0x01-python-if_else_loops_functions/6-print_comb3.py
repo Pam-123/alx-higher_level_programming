@@ -4,5 +4,7 @@
 for tens in range(10):
     # Loop for the units place (second digit)
     for units in range(tens + 1, 10):
+        # Set the end parameter based on the condition
+        end_parameter = ', ' if (tens != 8 or units != 9) else '\n'
         # Print the combination as two-digit numbers
-        print("{:d}{:d}".format(tens, units), end=', ' if tens != 8 or units != 9 else '\n')
+        print(f"{tens}{units}", end=end_parameter)
