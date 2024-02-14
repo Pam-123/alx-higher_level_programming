@@ -1,3 +1,1 @@
-# THE MORE THE BETTER
-MORE CLASSES
-WAIT I'M LATE FOR CLASS
+0x08. Python - More Classes and Objects 
