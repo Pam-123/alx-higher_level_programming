@@ -1,5 +1,3 @@
--- Script to remove all records with score <= 5
-USE `hbtn_0c_0`;
-
+-- Removes all records with a score <= 5 in the table second_table in my MySQL server.
 DELETE FROM `second_table`
-WHERE score <= 5;
+WHERE `score` <= 5;
